@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "this is my resume created using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index",
+    "start": "node index"
+  },
+  "keywords": [
+    "resume",
+    "express",
+    "nodemon",
+    "json"
+  ],
+  "author": "Galleh S",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

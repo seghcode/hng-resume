@@ -1,0 +1,195 @@
+{{!-- messages --}}
+<div class="text-center font-weight-bolder" style="color: red;">
+  {{err}}
+</div>
+<div class="card text-center font-weight-bolder" style="color: green;">
+  {{data}}
+  <span class="text-center">{{details}}</span> 
+  <h5>{{name}}</h5>
+  <h5>{{email}}</h5>
+  <h5>{{message}}</h5>
+</div>
+
+{{! my navigation tab starts }}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://internship.zuri.team/">
+  <img src="zuri.png" height="40" class="d-inline-block align-top" alt="Zuri Logo" />
+</a>
+  <a class="navbar-brand" href="https://hng.tech/">
+    <img src="hng.png" height="40" class="d-inline-block align-top" alt="HNG Logo" />
+</a>
+  <a class="navbar-brand" href="https://ingressive.org/">
+    <img src="i4g.png" height="40" class="d-inline-block align-top" alt="I4G Logo" />
+</a>
+
+
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav d-flex">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home
+          <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactForm">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+{{! nav ends }}
+{{! my main body }}
+<div class="d-flex justify-content-between mt-4 mb-4">
+  <h4 class="font-weight-bold">GALLEH SOLOMON HENRY
+    <span class="d-block font-italic text-muted">Full Stack Developer</span>
+  </h4>
+  <img src="solo.jpg" alt="My Passport" class="" width="65" height="65" />
+</div>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left font-weight-bold text-decoration-none" type="button"
+          data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          PERSONAL INFORMATION
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <table class="table table-striped">
+          <tr>
+            <td>Name:</td>
+            <td>Galleh Solomon Henry</td>
+          </tr>
+          <tr>
+            <td>Date Of Birth:</td>
+            <td>17 May 1999</td>
+          </tr>
+          <tr>
+            <td>Nationality:</td>
+            <td>Nigeria</td>
+          </tr>
+          <tr>
+            <td>State Of Origin:</td>
+            <td>Nasarawa</td>
+          </tr>
+          <tr>
+            <td>Home address:</td>
+            <td>Transformer street opposite Christlight academy Ombi 1, Lafia.</td>
+          </tr>
+          <tr>
+            <td>Present address:</td>
+            <td>Lamingo Jos.</td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>solomongalleh@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Phone number:</td>
+            <td>+2347061204628</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left font-weight-bold text-decoration-none collapsed" type="button"
+          data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          EDUCATION
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <table class="table table-striped">
+          <tr>
+            <td>2002-2009:</td>
+            <td>Primary Leaving certificate: hope academy nursery/primary
+              school, Lafia.</td>
+          </tr>
+          <tr>
+            <td>2009-2015:</td>
+            <td>Senior School Certificate: Government science secondary school,
+              Nasarawa Eggon.</td>
+          </tr>
+          <tr>
+            <td>2015-2017:</td>
+            <td>National diploma: Nasarawa State Polytechnic, Lafia.</td>
+          </tr>
+          <tr>
+            <td>2018-Ongoing:</td>
+            <td>B.Sc. Computer Science. Nasarawa State University, Keffi.</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left font-weight-bold text-decoration-none collapsed" type="button"
+          data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          SKILLS
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <table class="table table-striped">
+          <tr>
+            <td>Googling</td>
+            <td>HTML, CSS</td>
+            <td>Javascript(Node.Js, Vue.js)</td>
+            <td>Excel Application</td>
+            <td>SQL</td>
+            <td>Community Management</td>
+            <td></td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{! contact form }}
+<div class="card my-3">
+  <div class="card-header">
+    <h4>Contact me here</h4>
+  </div>
+  <div class="card-body">
+    <form action="/" method="POST" id="contactForm">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="" placeholder="Full Name" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="" placeholder="Email Address" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="name">Message</label>
+        <textarea name="message" id="" cols="3" rows="3" placeholder="Write your message here" class="form-control"></textarea>
+      </div>
+      <button class="btn btn-outline-primary btn-block">SUBMIT</button>
+    </form>
+  </div>
+</div>
+
+{{! contact form ends }}
+{{! main body ends }}
+
+{{! footer starts here }}
+<footer class="text-center">
+  &copy;2021 Galleh Solomon <a href="https://github.com/seghcode/resume" target="_blank">Github Repo</a>
+</footer>
+{{! footer ends }}
